@@ -26,4 +26,4 @@ yarn-error.log*
 .vscode/settings.json
 
 # auth and session
-/baileys_auth_info
+baileys_auth_info/*
