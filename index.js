@@ -655,6 +655,5 @@ app.delete("/delete-session", async (req, res) => {
 
 connectToWhatsApp().catch((err) => console.log("unexpected error: " + err)); // catch any errors
 server.listen(port, () => {
-  console.log(process.env);
   console.log("Server Berjalan pada Port : " + port);
 });
